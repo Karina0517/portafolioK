@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karina</title>
+  <link rel="stylesheet" href="portafolio.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="Menu">
+      <h1><strong>KARINA ANDREA HENAO ZULETA - Riwi coder</strong></h1>
+      <ul>
+        <li><a href="#info">About me</a></li>
+        <li><a href="#skills">My skills</a></li>
+        <li><a href="#projects">My projects</a></li>
+        <li><a href="#contact">My contacts</a></li>
+      </ul>
+    </nav>
+
+    <div class="section" id="info">
+      <h2>About me:</h2>
+      <p>
+        Hello, I am Karina Andrea Henao Zuleta, I am Riwi coder, actually I am
+        learning programming languages like Python, HTML, CSS and others.<br />
+        I love learning software topics and new technologies.
+      </p>
+    </div>
+
+    <div class="section">
+      <img width="60px" src="karina.png" alt="Riwi Imagen" />
+    </div>
+
+    <div class="section" id="skills">
+      <h2>My skills:</h2>
+      <ul>
+        <li>I am very creative</li>
+        <li>I like to learn</li>
+        <li>I can learn topics quickly</li>
+        <li>I have the ability to work in a team</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>Java</li>
+      </ul>
+    </div>
+
+    <div class="section" id="projects">
+      <h2>My projects:</h2>
+      <p>
+        My first project is a program that manages a library, allowing you to add, lend, return,
+        filter and delete books. It is created with Python.
+      </p>
+
+      <div class="repo-table-container">
+        <table class="repo-table" border="3">
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Description</th>
+              <th>Technologies</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Library Manager</td>
+              <td>App to manage books: add, lend, return, filter, delete.</td>
+              <td>Python</td>
+              <td><a href="https://github.com/Karina0517/tallerLibreria.git" target="_blank">GitHub</a></td>
+            </tr>
+            <tr>
+              <td>Dolce Italian</td>
+              <td>A Italian food page, in this page we can see the menu and prices</td>
+              <td>HTML, CSS</td>
+              <td><img src="./dolce.jpg" alt="qr code"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>My contacts:</h2>
+      <p>GitHub:</p>
+      <p>Phone: 319 616 4048</p>
+
+      <h3>Contact form</h3>
+      <form>
+        <div class="input-group">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" placeholder="Your name" />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" placeholder="Your email" />
+        </div>
+
+        <div class="input-group">
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" placeholder="Write your message"></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
