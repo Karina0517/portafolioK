@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(255, 202, 210);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav.Menu h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+nav.Menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav.Menu ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav.Menu ul li a {
+  text-decoration: none;
+  color: #613243;
+  font-weight: bold;
+}
+
+.section {
+  background-color: rgb(240, 157, 184);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6a3a4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.repo-table-container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.repo-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.repo-table th,
+.repo-table td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.repo-table th {
+  background-color: #f8b8cd;
+  font-weight: bold;
+}
+
+.repo-table td a {
+  color: #6a3a4c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.repo-table td a:hover {
+  text-decoration: underline;
+}
